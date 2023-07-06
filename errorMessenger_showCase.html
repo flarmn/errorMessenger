@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+
+<head>
+    <title>Демо страница для демонстрации плагина вывода ошибок</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="./css/errorMessanger.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <div id="demo-container">
+        <input type = "text" class = "js-input-container input-container">
+        <div class = "someObject">Here is some object</div>
+    </div>
+</body>
+
+<script src="./js/jquery-3.6.1.min.js"></script>
+<script src="./js/errorMessanger.js"></script>
+
+<script>
+$(document).ready(function () {
+    showErrorMessage("js-input-container", "LaLA this is error message");
+});
+    
+</script>
+
+</html>

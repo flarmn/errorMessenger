@@ -1,0 +1,4 @@
+1. Configurable error output Object:
+ Object to output error. (Unique class name)
+ Message text
+ style 
